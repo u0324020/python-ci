@@ -47,7 +47,7 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: artifact
-        path: dist/main
+        path: main
 
     - name: Docker Hub login
       uses: azure/docker-login@v1
