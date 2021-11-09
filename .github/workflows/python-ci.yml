@@ -1,6 +1,9 @@
 name: Python-CI
 
-on: [push, workflow_dispatch]
+on: 
+  workflow_dispatch:
+  repository_dispatch:
+    types: [my-event]
 
 jobs:
   ci-job:
