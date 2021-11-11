@@ -4,6 +4,7 @@ FROM python:3.9-alpine
 
 WORKDIR /app
 
+
 ENV GOSU_VERSION 1.14
 RUN set -eux; \
 	\
